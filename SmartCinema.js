@@ -26,8 +26,7 @@ function verifyPromocode() {
     priceDiff = oldPrice - getPrice();
     let resault = document.querySelector(promocodeErrorLoc).innerText == "" &&
         priceDiff != 0;
-    //    return resault;
-    return document.querySelector(promocodeErrorLoc).innerText == "";
+    return resault;
 }
 
 function createPromocode(i) {
